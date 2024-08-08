@@ -9,70 +9,70 @@ importers:
   .:
     devDependencies:
       '@playwright/test':
-        specifier: ^1.28.1
+        specifier: ^1.46.0
         version: 1.46.0
       '@sveltejs/adapter-auto':
-        specifier: ^3.0.0
+        specifier: ^3.2.2
         version: 3.2.2(@sveltejs/kit@2.5.20(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.210)(vite@5.4.0))(svelte@5.0.0-next.210)(vite@5.4.0))
       '@sveltejs/kit':
-        specifier: ^2.0.0
+        specifier: ^2.5.20
         version: 2.5.20(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.210)(vite@5.4.0))(svelte@5.0.0-next.210)(vite@5.4.0)
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^3.0.0
+        specifier: ^3.1.1
         version: 3.1.1(svelte@5.0.0-next.210)(vite@5.4.0)
       '@tailwindcss/typography':
-        specifier: ^0.5.13
+        specifier: ^0.5.14
         version: 0.5.14(tailwindcss@3.4.9)
       '@types/eslint':
         specifier: ^9.6.0
         version: 9.6.0
       autoprefixer:
-        specifier: ^10.4.19
+        specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.41)
       eslint:
-        specifier: ^9.0.0
+        specifier: ^9.8.0
         version: 9.8.0
       eslint-config-prettier:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.8.0)
       eslint-plugin-svelte:
-        specifier: ^2.36.0
+        specifier: ^2.43.0
         version: 2.43.0(eslint@9.8.0)(svelte@5.0.0-next.210)
       globals:
-        specifier: ^15.0.0
+        specifier: ^15.9.0
         version: 15.9.0
       postcss:
-        specifier: ^8.4.38
+        specifier: ^8.4.41
         version: 8.4.41
       prettier:
-        specifier: ^3.1.1
+        specifier: ^3.3.3
         version: 3.3.3
       prettier-plugin-svelte:
-        specifier: ^3.1.2
+        specifier: ^3.2.6
         version: 3.2.6(prettier@3.3.3)(svelte@5.0.0-next.210)
       prettier-plugin-tailwindcss:
-        specifier: ^0.6.4
+        specifier: ^0.6.5
         version: 0.6.5(prettier-plugin-svelte@3.2.6(prettier@3.3.3)(svelte@5.0.0-next.210))(prettier@3.3.3)
       svelte:
-        specifier: ^5.0.0-next.1
+        specifier: 5.0.0-next.210
         version: 5.0.0-next.210
       svelte-check:
-        specifier: ^3.6.0
+        specifier: ^3.8.5
         version: 3.8.5(postcss-load-config@4.0.2(postcss@8.4.41))(postcss@8.4.41)(svelte@5.0.0-next.210)
       tailwindcss:
-        specifier: ^3.4.4
+        specifier: ^3.4.9
         version: 3.4.9
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.5.4
         version: 5.5.4
       typescript-eslint:
-        specifier: ^8.0.0
+        specifier: ^8.0.1
         version: 8.0.1(eslint@9.8.0)(typescript@5.5.4)
       vite:
-        specifier: ^5.0.3
+        specifier: ^5.4.0
         version: 5.4.0
       vitest:
-        specifier: ^2.0.0
+        specifier: ^2.0.5
         version: 2.0.5
 
 packages:
