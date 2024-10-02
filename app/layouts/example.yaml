@@ -4,7 +4,6 @@ page:
   body:
     header:
       - sidebar_toggler:
-      - Header
       - spacer:
       - dark_mode_toggler:
       - dropdown:
