@@ -1,17 +1,15 @@
-theme: default
+# layout: example
 ---
-- h1: Welcome to Fluwy!
-- p: To edit this page edit the 'app/pages/index.yaml' file.
-- row:
-    class: gap-2
-    content:
-      - button:
-          text: Click me
-          # variant: outline
-          # color: primary
-          on_click:
-            log: This is working
-      - button:
-          text: Go to about page
-          on_click:
-            goto: /about
+h1: Welcome to Fluwy!
+p: To edit this page edit the 'app/pages/index.yaml' file.
+row:
+  class: gap-2
+  content:
+    - button:
+        text: Click me
+        on_click:
+          log: This is working
+    - button:
+        text: Go to about page
+        on_click:
+          goto: /about

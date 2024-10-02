@@ -1,0 +1,55 @@
+theme: default
+---
+page:
+  body:
+    header:
+      - sidebar_toggler:
+      - Header
+      - spacer:
+      - dark_mode_toggler:
+      - dropdown:
+          align: end
+          trigger:
+            avatar:
+              size: sm
+              name: John Doe Smith
+              src: /user.jpg
+          content:
+            - dropdown_item:
+                text: My Profile
+                icon: solar:user-circle-linear
+                url: /profile
+            - dropdown_item:
+                text: Settings
+                icon: solar:settings-linear
+            - dropdown_separator:
+            - dropdown_item:
+                text: Logout
+                icon: solar:logout-linear
+    sidebar:
+      - brand:
+          class: px-4 mb-4
+          light: /fluwy-logo-black.svg
+          dark: /fluwy-logo-white.svg
+      - menu_item:
+          text: Home
+          icon: solar:home-smile-angle-linear
+          url: /
+      - menu_item:
+          text: Contacts
+          icon: solar:users-group-two-rounded-linear
+          url: /contacts
+      - menu_group:
+          header: Settings
+          icon: solar:settings-linear
+          content:
+            - menu_item:
+                text: Users
+                url: /settings/users
+            - menu_item:
+                text: Billing
+                url: /settings/billing
+            - menu_item:
+                text: Integrations
+                url: /settings/integrations
+    slot: default
