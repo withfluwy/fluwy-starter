@@ -50,6 +50,13 @@ common:
     content:
     separator:
     item:
+  tab:
+    class:
+    outer_radius: # defaults to true
+    title:
+    panel:
+    root:
+    list:
 
 colors:
   primary:

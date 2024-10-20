@@ -1,4 +1,4 @@
-# layout: example
+layout: example
 ---
 h1: Welcome to Fluwy!
 p: To edit this page edit the 'app/pages/index.yaml' file.
