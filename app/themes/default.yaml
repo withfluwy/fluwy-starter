@@ -89,3 +89,17 @@ forms:
       outline:
       ghost:
       link:
+
+displays:
+  table:
+    page_size: # number of rows per page
+    header:
+    wrapper:
+    row:
+      default:
+      clickable:
+    cell:
+      default:
+      clickable:
+    pagination:
+      wrapper:
