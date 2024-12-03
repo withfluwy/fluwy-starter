@@ -89,6 +89,12 @@ forms:
       outline:
       ghost:
       link:
+  input:
+    wrapper:
+    base:
+    label:
+    description:
+    errors:
 
 displays:
   table:
