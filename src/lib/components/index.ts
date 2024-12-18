@@ -5,3 +5,4 @@
 
 // export your components here. Example:
 // export { default as Button } from './custom-component.svelte';
+export { default as Welcome } from './welcome.svelte';
