@@ -8,8 +8,10 @@ row:
     - button:
         text: Click me
         on_click:
-          log: This is working
+          alert: This is working
     - button:
         text: Go to about page
         on_click:
           goto: /about
+
+app.welcome:
