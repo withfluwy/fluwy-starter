@@ -1,5 +1,20 @@
-// import { registerAll } from '@fluwy/ui';
-// import * as components from './components';
+import { app } from '@fluwy/ui';
+import { error, redirect } from '@sveltejs/kit';
 
-// Register your custom components here all at once from the `src/lib/components` folder.
-// registerAll(components);
+import { Welcome } from '$lib/components';
+
+app.config({ error, redirect }).plug({
+	name: 'app',
+
+	/**
+	 * The components you want to register goes here
+	 */
+	components: {
+		Welcome,
+	},
+
+	/**
+	 * The operations you want to register goes here
+	 */
+	// operations: {}
+});
