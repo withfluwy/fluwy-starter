@@ -11,7 +11,7 @@ page:
           trigger:
             avatar:
               size: sm
-              name: John Doe Smith
+              name: John Doe
               src: /user.jpg
           content:
             - dropdown_item:
@@ -35,9 +35,9 @@ page:
           icon: solar:home-smile-angle-linear
           url: /
       - menu_item:
-          text: Contacts
-          icon: solar:users-group-two-rounded-linear
-          url: /contacts
+          text: About
+          icon: solar:info-circle-linear
+          url: /about
       - menu_group:
           header: Settings
           icon: solar:settings-linear
